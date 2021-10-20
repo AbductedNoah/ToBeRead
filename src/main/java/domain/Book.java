@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 public class Book {
     private String title;
     private String author;

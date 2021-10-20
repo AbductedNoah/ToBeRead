@@ -4,9 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 public class User {
     private String username;
     private String first;
@@ -14,4 +15,6 @@ public class User {
     private String firstLogin;
     private BookList bookList;
     private String email;
+    private Date birthday;
+    private Book favoriteBook;
 }

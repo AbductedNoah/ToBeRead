@@ -8,7 +8,6 @@ import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 public class BookList {
     private Book head;
     private Book favorite;
